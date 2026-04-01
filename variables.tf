@@ -1,6 +1,7 @@
 variable "bucket_name" {
   description = "Name of the S3 bucket"
   type        = string
+  default = "spacelift-demo-bucket-123aws456"
 }
 
 variable "environment" {
