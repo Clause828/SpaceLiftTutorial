@@ -9,5 +9,6 @@ resource "aws_s3_bucket" "demo_bucket" {
     environment = var.environment
     managed_by  = "spacelift-demo"
     budget = "10000"
+    design = "Scrum"
   }
 }
