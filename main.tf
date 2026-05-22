@@ -11,5 +11,6 @@ resource "aws_s3_bucket" "demo_bucket" {
     budget = "10000"
     design = "Scrum"
     workflow = "Agile"
+    project = "Spacelift Demo"
   }
 }
